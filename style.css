@@ -1,0 +1,16 @@
+/*
+Theme Name: Thème WP minimum
+Theme URI:  https://github.com/stefankummer/wp-minimum-theme
+Author: Stefan Kummer
+URI: https://www.skweb.ch
+Description: Starter theme pour la création de thème Wordpress (avec bootstrap 4 et jquery 3)
+Version: 1.0
+License: MIT License
+License URI:  https://github.com/stefankummer/wp-minimum-theme/blob/master/LICENSE
+Tags: minimum, skeleton
+Text Domain: skweb-min-theme
+*/
+
+body {
+    background-color: brown;
+}

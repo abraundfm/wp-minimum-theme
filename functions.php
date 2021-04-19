@@ -10,7 +10,8 @@
 
     function loadjs()
     {
-        wp_register_script('minimum', get_template_directory_uri() . '/dist/minimum.js');
+        wp_register_script('minimum', get_template_directory_uri() . '/dist/minimum.js', NULL, false, true);
+        wp_enqueue_script('minimum');
     }
     add_action('wp_enqueue_scripts', 'loadjs');
 

@@ -1,0 +1,26 @@
+{
+  "name": "wp-minimum-theme",
+  "version": "1.0.0",
+  "description": "Minimum files to start a wordpress theme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.0-beta3"
+  },
+  "scripts": {
+    "build": "parcel build minimum.js --no-content-hash --no-cache --dist-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefankummer/wp-minimum-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefankummer/wp-minimum-theme/issues"
+  },
+  "homepage": "https://github.com/stefankummer/wp-minimum-theme#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2"
+  }
+}

@@ -3,7 +3,7 @@
 
     function loadcss()
     {
-        wp_register_style('minimum', get_template_directory_uri() . '/dist/minumum.css');
+        wp_register_style('minimum', get_template_directory_uri() . '/dist/minimum.css');
         wp_enqueue_style('minimum');
     }
     add_action('wp_enqueue_scripts', 'loadcss');
